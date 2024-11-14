@@ -1,0 +1,462 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G4 Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <script>alert ('jika ada kritik dan saran yang membangun bisa lewat media sosial kami')</script>
+    
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo"><span>G</span>4</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="#Constraints">Constraints</a>
+              </li>
+              <!-- <li class="nav-item">
+               <a class="nav-link" href="#packages"></a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallary">Gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <div class="home">
+        <div class="content">
+            <h5>Welcome To  G4</h5>
+            <h1>We Can Fix <span class="changecontent"></span></h1>
+            <p></p>
+            <a href="#book">Join Now</a>
+        </div>
+    </div>
+ 
+     <section class="book" id="Constraints">
+      <div class="container">
+
+        <div class="main-text">
+          <h1><span>C</span>onstraints</h1>
+        </div>
+        
+        <div class="row">
+
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/post.jpeg" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+            <form action="send_mail.php">
+
+              <input type="email" class="form-control" placeholder="email" required><br>
+              <input type="text" class="form-control" placeholder="Name" required><br>
+              <input type="number" class="form-control" placeholder="Student ID" required><br>
+              <input type="text" class="form-control" placeholder="Major" required><br>
+              <input type="date" class="form-control" placeholder="Arrivals" required><br>
+              <!-- <input type="date" class="form-control" placeholder="Leaving" required><br> -->
+              <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Problem"></textarea>
+              <input type="submit" value="Send Now" class="submit" required>
+
+            </form>
+          </div> 
+
+        </div>
+      </div>
+    </section>
+  
+    <!-- <section class="packages" id="packages">
+      <div class="container">
+        
+        <div class="main-txt">
+          <h1><span>P</span>ackages</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="travel/bali.jpg" alt="">
+              <div class="card-body">
+                <h3>Bali</h3>
+                <p>Bali has remained as one of the world's top island destinations for decades and it's easy to see why. From white sand beaches to a thriving nightlife, this tropical paradise has something for every kind of traveler.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>RP1.230.000</strong></h6>
+                <a href="booking.html">Read more..</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="travel/komodo.jpg" alt="">
+              <div class="card-body">
+                <h3>Pulau Komodo</h3>
+                <p>Komodo Island has become one of the best tourist destinations in Indonesia and attracts tourists from all over the world. Its spectacular natural beauty, makes it a paradise for divers and nature lovers.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>RP4.320.000</strong></h6>
+                <a href="booking.html">Read more..</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="travel/pu.jpg" alt="">
+              <div class="card-body">
+                <h3>Cikarang</h3>
+                <p>President University is a fairly good destination in Cikarang Regency, has an international learning system and has 40 percent foreign students. Go to president university guys, I wish you happiness.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>RP240.000</strong></h6>
+                <a href="booking.html">Read more..</a>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="travel/flores.jpg" alt="">
+              <div class="card-body">
+                <h3>Flores</h3>
+                <p>Flores, a beautiful island in Indonesia, offers stunning natural charm with stunning mountains.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>RP1.231.000</strong></h6>
+                <a href="booking.html">Read more..</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="travel/yogya.jpg" alt="">
+              <div class="card-body">
+                <h3>Yogjakarta</h3>
+                <p>Prambanan Temple is another stunning site, showcasing beautiful Hindu architecture.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>RP703.000</strong></h6>
+                <a href="booking.html">Read more..</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="travel/sumatra.jpg" alt="">
+              <div class="card-body">
+                <h3>Sumatra</h3>
+                <p>Sumatra is the sixth-largest island in the world and is located in western Indonesia.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>2.321.000</strong></h6>
+                <a href="booking.html">Read more..</a>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+    </section> -->
+
+
+
+
+
+
+
+
+    <section class="services" id="services">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1><span>S</span>ervices</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fa-solid fa-globe"></i>
+              <div class="card-body">
+                <h3>Network Monitoring </h3>
+                <p>Continuously tracks network performance, identifies issues, and provides real-time alerts for outages or slowdowns.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fa-solid fa-wrench"></i>
+              <div class="card-body">
+                <h3>Technical Support </h3>
+                <p>Offers 24/7 support for residents experiencing connectivity problems, providing troubleshooting assistance and on-site help when needed.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fa-solid fa-wifi"></i>
+              <div class="card-body">
+                <h3>Bandwidth Management </h3>
+                <p>EImplements traffic shaping to prioritize essential services (like academic resources) and limit excessive usage by high-demand applications.</p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fa-solid fa-lock"></i>
+              <div class="card-body">
+                <h3>Security</h3>
+                <p>Provides network security measures, including firewalls, antivirus software, and regular vulnerability assessments to protect user data.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fa-solid fa-school"></i>
+              <div class="card-body">
+                <h3>User Education Workshops</h3>
+                <p>Hosts sessions to educate residents on safe internet practices, optimizing device settings, and using the network efficiently.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fa-solid fa-comments"></i>
+              <div class="card-body">
+                <h3>Feedback and Improvement</h3>
+                <p>Establishes a system for residents to submit feedback about network performance, which is used to make continuous improvements.</p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+    <section class="gallary" id="gallary">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1><span>G</span>allary</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g1.jpeg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g2.jpeg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g3.jpeg" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g4.jpeg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g5.jpeg" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g6.jpeg" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1>About <span>Us</span></h1>
+        </div>
+
+        <div class="row" style="margin-top: 50px;">
+
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="images/us.jpeg" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+            <h2>How To G4 Work :</h2>
+            <p>1.Identify Issues
+              <br>
+              Survey residents about their internet problems.
+              Gather data on network usage and performance.
+              <br>
+              2.Plan Solutions <br>
+              
+              Research and propose upgrades (new routers, better configurations).
+              Outline a strategy for managing bandwidth. <br>
+              3.Implement Changes <br>
+              
+              Upgrade hardware and adjust network settings.
+              Introduce policies for fair internet usage. <br>
+              4.Test and Evaluate <br>
+              
+              Run speed tests and check connectivity.
+              Collect feedback from residents on improvements. <br>
+              5.Ongoing Maintenance <br>
+              
+              Schedule regular checks and updates.
+              Keep a system for continuous feedback from users..</p>
+            <a href="404.html"><button id="about-btn">Read More...</button></a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    
+ 
+    <footer id="footer">
+      <h1><span>G</span>4</h1>
+      <p>We welcome constructive criticism and suggestions</p>
+      <div class="social-links">
+        <a href=""><i class="fa-brands fa-facebook" ></i></a>
+        <a href="https://www.instagram.com/wldaan_df"><i class="fa-brands fa-instagram" ></i></a>
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+      <div class="credit">
+      </div>
+      <div class="copyright">
+        <p></p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
